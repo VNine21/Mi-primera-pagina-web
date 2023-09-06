@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Primera pagina web</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+        body{
+            margin: 0px;
+        }
+        h1{
+            position: relative;
+            left:45%;
+        }
+        .container1{
+            background-color: #131010;
+            display: flex;
+            border: 2px solid black;
+            justify-content: flex-end;
+
+        }
+        .header .nav-links{
+            list-style: none;
+            padding: 20px;
+        }
+        li{
+            display: inline-block;
+            padding: 0 10px;
+            font-size: 20px;
+            color: white;
+        }
+        li a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+    <body>
+        <div class="container1">
+        <header class="header">
+            <nav class="navbar" role="navigation">
+                <ul class="nav-links">
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Servicios</a>
+
+                    </li>
+                    <li>
+                        <a href="contacts.html">Contactos</a>
+                    </li>
+                    <li>
+                        <a href="about.html">Acerca de nosotros</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        </div>
+        <div class="container2">
+            <h1>Contactanos</h1>
+            <p>En esta seccion podras ponerte en contacto con nosotros por si tienes alguna duda.</p>
+            <p>Llena el siguiente formulario para que puedas contactarnos por email, o si prefieres llamanos al 0800-111-2222</p>
+            <form>
+                <fieldset>
+            <legend style="color: black">Datos Personales</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+                
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

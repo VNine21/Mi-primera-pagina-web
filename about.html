@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Primera pagina web</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+        body{
+            margin: 0px;
+        }
+        h1{
+            position: relative;
+            left:45%;
+        }
+        p{
+            font-size: 20px;
+        }
+        .container1{
+            background-color: #131010;
+            display: flex;
+            border: 2px solid black;
+            justify-content: flex-end;
+
+        }
+        .header .nav-links{
+            list-style: none;
+            padding: 20px;
+        }
+        li{
+            display: inline-block;
+            padding: 0 10px;
+            font-size: 20px;
+        }
+        li a{
+            text-decoration: none;
+            color: white;
+        }
+        .container2{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+    </style>
+    <body>
+        <div class="container1">
+        <header class="header">
+            <nav class="navbar" role="navigation">
+                <ul class="nav-links">
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Servicios</a>
+
+                    </li>
+                    <li>
+                        <a href="contacts.html">Contactos</a>
+                    </li>
+                    <li>
+                        <a href="about.html">Acerca de nosotros</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        </div>
+        <h1>Acerca de nosotros</h1>
+        <p>¡Bienvenido a nuestra página “Acerca de”! Aquí, aprenderás más sobre nuestra empresa y los servicios que ofrecemos.</p>
+        <div class="container2">
+        <img src="sample.jpg" alt="" width="600px"></img>
+        <img src="sample.jpg" alt="" width="600px"></img>
+        <img src="sample.jpg" alt="" width="600px"></img>
+        </div>
+        <a href="https://www.youtube.com/watch?v=3Pgkf8FfBBQ" target="_blank">Video</a>
+
+    </body>
+</html>
