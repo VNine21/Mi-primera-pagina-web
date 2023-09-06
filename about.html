@@ -8,13 +8,16 @@
     <style>
         body{
             margin: 0px;
+            background-color: black;
         }
         h1{
             position: relative;
             left:45%;
+            color: white;
         }
         p{
             font-size: 20px;
+            color: white;
         }
         .container1{
             background-color: #131010;
@@ -41,6 +44,10 @@
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
+        }
+        .video{
+            margin-top: 30px;
+            text-align: center;
         }
 
     </style>
@@ -73,7 +80,9 @@
         <img src="sample.jpg" alt="" width="600px"></img>
         <img src="sample.jpg" alt="" width="600px"></img>
         </div>
-        <a href="https://www.youtube.com/watch?v=3Pgkf8FfBBQ" target="_blank">Video</a>
+        <div class="video">
+        <iframe width="900" height="500" src="https://www.youtube.com/embed/4KQwiUTQgCM?si=AEyh4-1r-kTM_8Xz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
 
     </body>
 </html>
